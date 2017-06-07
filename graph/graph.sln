@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graph", "graph\graph.vcxproj", "{C61B8ECC-D8E9-4A0A-A1CE-5219AB69E6DF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DialogGL", "DialogGL\DialogGL.vcxproj", "{5B138B8C-3F30-4B26-83C2-63F5D6AA2C86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DialogGLHandlers", "DialogGLHandlers\DialogGLHandlers.vcxproj", "{19142ACC-F8EF-4B5F-9467-21AF2660999B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,22 @@ Global
 		{C61B8ECC-D8E9-4A0A-A1CE-5219AB69E6DF}.Release|x64.Build.0 = Release|x64
 		{C61B8ECC-D8E9-4A0A-A1CE-5219AB69E6DF}.Release|x86.ActiveCfg = Release|Win32
 		{C61B8ECC-D8E9-4A0A-A1CE-5219AB69E6DF}.Release|x86.Build.0 = Release|Win32
+		{5B138B8C-3F30-4B26-83C2-63F5D6AA2C86}.Debug|x64.ActiveCfg = Debug|x64
+		{5B138B8C-3F30-4B26-83C2-63F5D6AA2C86}.Debug|x64.Build.0 = Debug|x64
+		{5B138B8C-3F30-4B26-83C2-63F5D6AA2C86}.Debug|x86.ActiveCfg = Debug|Win32
+		{5B138B8C-3F30-4B26-83C2-63F5D6AA2C86}.Debug|x86.Build.0 = Debug|Win32
+		{5B138B8C-3F30-4B26-83C2-63F5D6AA2C86}.Release|x64.ActiveCfg = Release|x64
+		{5B138B8C-3F30-4B26-83C2-63F5D6AA2C86}.Release|x64.Build.0 = Release|x64
+		{5B138B8C-3F30-4B26-83C2-63F5D6AA2C86}.Release|x86.ActiveCfg = Release|Win32
+		{5B138B8C-3F30-4B26-83C2-63F5D6AA2C86}.Release|x86.Build.0 = Release|Win32
+		{19142ACC-F8EF-4B5F-9467-21AF2660999B}.Debug|x64.ActiveCfg = Debug|x64
+		{19142ACC-F8EF-4B5F-9467-21AF2660999B}.Debug|x64.Build.0 = Debug|x64
+		{19142ACC-F8EF-4B5F-9467-21AF2660999B}.Debug|x86.ActiveCfg = Debug|Win32
+		{19142ACC-F8EF-4B5F-9467-21AF2660999B}.Debug|x86.Build.0 = Debug|Win32
+		{19142ACC-F8EF-4B5F-9467-21AF2660999B}.Release|x64.ActiveCfg = Release|x64
+		{19142ACC-F8EF-4B5F-9467-21AF2660999B}.Release|x64.Build.0 = Release|x64
+		{19142ACC-F8EF-4B5F-9467-21AF2660999B}.Release|x86.ActiveCfg = Release|Win32
+		{19142ACC-F8EF-4B5F-9467-21AF2660999B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

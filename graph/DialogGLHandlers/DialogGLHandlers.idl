@@ -1,0 +1,69 @@
+// DialogGLHandlers.idl : IDL source for DialogGLHandlers
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (DialogGLHandlers.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(C867F16B-FA6B-4928-BEAB-A6CE0E6AB46D),
+	pointer_default(unique)
+]
+interface IPreview : IUnknown
+{
+};
+
+[
+	object,
+	uuid(A8DBA37E-5ACA-4F5F-8558-6691DFBF2465),
+	pointer_default(unique)
+]
+interface IThumbnail : IUnknown
+{
+};
+
+[
+	object,
+	uuid(7A0B137E-BCCD-48CF-ADF7-6917C39C87BC),
+	pointer_default(unique)
+]
+interface ISearch : IUnknown
+{
+};
+
+[
+	uuid(449CE36D-BC76-4025-8D7E-326865544CF5),
+	version(1.0),
+]
+library DialogGLHandlersLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(FB489626-A814-4BB5-AB9F-D8208FF29BB7)
+	]
+	coclass Preview
+	{
+		[default] interface IPreviewHandler;
+	};
+	[
+		uuid(C2EFA6E1-F5B6-4090-B704-B4E7B4D58EDF)
+	]
+	coclass Thumbnail
+	{
+		[default] interface IThumbnailProvider;
+	};
+	[
+		uuid(F222EDCD-1338-4141-A1F6-0C704798108F)
+	]
+	coclass Search
+	{
+		[default] interface IFilter;
+	};
+};
+
+import "shobjidl.idl";
+import "thumbcache.idl";
+import "filter.idl";
